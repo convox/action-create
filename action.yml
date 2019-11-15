@@ -1,0 +1,13 @@
+name: Convox Create
+description: Create a Convox app
+author: Convox
+inputs:
+  rack:
+    description: Convox Rack name
+    required: true
+  app:
+    description: Convox app name
+    required: true
+runs:
+  using: docker
+  image: Dockerfile
